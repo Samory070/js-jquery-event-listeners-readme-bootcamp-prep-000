@@ -58,9 +58,3 @@ function pressIt(key) {
         alert('g was pressed');
   })
 }
-
-function submitIt() {
-  $('form').on('click', function() {
-    alert('Your form is going to be submitted now.')
-  })
-}

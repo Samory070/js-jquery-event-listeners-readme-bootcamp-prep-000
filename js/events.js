@@ -40,13 +40,13 @@ $(document).ready(function(){
 });
 
 function getIt() {
-  $('p').on('click', function() {
+  $('img').on('click', function() {
     alert('hey!')
   })
 }
 
 function frameIt() {
-  $('p').on('click', function() {
+  $('.tasty').on('load', function() {
     alert('hey!')
   })
 }

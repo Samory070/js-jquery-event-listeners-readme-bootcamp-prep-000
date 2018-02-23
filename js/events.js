@@ -52,12 +52,6 @@ function frameIt() {
   })
 }
 
-function pressIt(key) {
-  $('#typing').on('keydown', function(key) {
-    if(key.which === 71){
-        alert("You pressed 'g' !");
-  })
-}
 
 function submitIt() {
   $('form').on('submit', function() {

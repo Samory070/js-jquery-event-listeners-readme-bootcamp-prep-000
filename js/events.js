@@ -40,7 +40,7 @@ $(document).ready(function(){
 });
 
 function getIt() {
-  $('img').on('click', function() {
+  $('p').on('click', function() {
     alert('Hey!')
   })
 }

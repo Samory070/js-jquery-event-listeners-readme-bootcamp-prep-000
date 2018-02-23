@@ -44,3 +44,9 @@ function getIt() {
     alert('hey!')
   })
 }
+
+function frameIt() {
+  $('p').on('click', function() {
+    alert('hey!')
+  })
+}

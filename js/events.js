@@ -53,7 +53,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('form').on('submit', function() {
+  $('form').on('keydown', function() {
     alert('Your form is going to be submitted now.')
   })
 }

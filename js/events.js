@@ -51,3 +51,9 @@ function frameIt() {
     $('img').addClass('tasty')
   })
 }
+
+function pressIt() {
+  $('form').on('submit', function() {
+    alert()
+  })
+}

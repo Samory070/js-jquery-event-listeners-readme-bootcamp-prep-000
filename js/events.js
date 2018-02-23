@@ -59,5 +59,7 @@ function pressIt() {
 }
 
 function submitIt() {
-  
+  $('form').on('click', function() {
+    alert('Your form is going to be submitted now.')
+  })
 }

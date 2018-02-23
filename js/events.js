@@ -37,7 +37,9 @@ $(document).ready(function(){
     return;
   });
 
-  $('p').on('click', function getIt() {
-        alert('Hey!')
+  function getIt() {
+  $('p').on('click', function() {
+    alert('Hey!')
   })
+  }
 });

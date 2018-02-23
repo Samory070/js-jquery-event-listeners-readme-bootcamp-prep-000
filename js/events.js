@@ -37,9 +37,10 @@ $(document).ready(function(){
     return;
   });
 
-  function getIt() {
-    $('p').on('click', function() {
-      alert('Hey!')
-    })
-  }
 });
+
+function getIt() {
+  $('p').on('click', function() {
+    alert('hey!')
+  })
+}

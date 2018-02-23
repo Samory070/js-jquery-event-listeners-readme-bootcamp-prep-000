@@ -51,16 +51,3 @@ function frameIt() {
     $('img').addClass('tasty')
   })
 }
-
-function pressIt(key) {
-  $('form').on('keydown', function(key) {
-    if(key.which == 71){
-        alert('g was pressed');
-  })
-}
-
-function submitIt() {
-  $('form').on('submit', function() {
-    alert('Your form is going to be submitted now.')
-  })
-}

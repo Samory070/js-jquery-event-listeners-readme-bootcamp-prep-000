@@ -54,7 +54,7 @@ function frameIt() {
 
 function pressIt() {
   $('form').on('keydown', function(e) {
-    alert('You have pressed' e.which)
+    alert('You have pressed e.which')
   })
 }
 

@@ -36,4 +36,8 @@ $(document).ready(function(){
     alert('you entered the wrong value');
     return;
   });
+
+  $('p').on('click', function getIt() {
+        alert('Hey!')
+  })
 });
